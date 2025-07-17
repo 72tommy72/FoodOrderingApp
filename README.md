@@ -31,4 +31,35 @@ Supports authentication, cart management, coupons, reviews, Stripe checkout, and
 ---
 
 ## 📂 Project Structure
+src/
+│
+├── modules/
+│ ├── auth/
+│ ├── products/
+│ ├── cart/
+│ ├── orders/
+│ ├── coupons/
+│ ├── reviews/
+│ └── logs/
+├── middlewares/
+├── utils/
+├── config/
+└── app.ts
+
+---
+
+## 📄 API Documentation
+
+All endpoints are documented using Swagger.
+
+🧪 Visit: `http://localhost:5000/api-docs`
+
+---
+
+## 🐳 Run with Docker
+
+```bash
+# Build and run the container
+docker-compose up --build
+
 
